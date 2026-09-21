@@ -1,4 +1,4 @@
-name: Build Photo Editor APK
+name: test
 
 on:
   workflow_dispatch:
@@ -6,7 +6,5 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Test
-        run: echo "GitHub Actions is working"
+      - run: echo "GitHub Actions is working"
